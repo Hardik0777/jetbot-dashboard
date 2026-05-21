@@ -1,0 +1,5 @@
+flask>=1.1.0
+opencv-python>=4.1.0
+numpy>=1.16.0
+# jetbot is pre-installed in the official JetBot Docker/conda environment.
+# Do NOT pip-install it separately — it requires Jetson-specific native libraries.

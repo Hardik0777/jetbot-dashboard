@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+env/
+venv/
+ENV/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Captured frames / recordings
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+!docs/*.png
+
+# JetBot / Jetson specific
+jetbot.egg-info/
